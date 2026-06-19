@@ -3,7 +3,7 @@
 👥 Integrantes do Grupo:
 Arthur Almeida Steinbach
 
-🚀 Como executar
+🚀 Como executar:
 Este programa foi desenvolvido na linguagem C++ utilizando as bibliotecas gráficas OpenGL e GLFW. Pode ser compilado diretamente em uma IDE como o VS Code.
 
 Passo a passo no VS Code:
@@ -13,7 +13,7 @@ Com o projeto aberto, pressione Ctrl + Shift + B para executar a tarefa de compi
 
 Após a compilação bem-sucedida, abra o terminal do próprio VS Code e execute o programa gerado, digitando ./main.exe.
 
-💡 Sobre o Programa
+💡 Sobre o Programa:
 O projeto consiste em um protótipo de jogo com Tilemap isométrico onde o jogador controla uma viatura policial.
 
 Mecânicas Principais:
@@ -25,17 +25,17 @@ Interação de Cenário: O veículo deixa um rastro de terra/pneu ao passar pelo
 
 Coleta e Punição: O objetivo do jogo é coletar todos os galões de gasolina espalhados pelo mapa e alcançar o bloco de saída. O jogador deve evitar os blocos de lava, pois se pisar neles causa a explosão do carro, resetando a posição do jogador, apagando os rastros deixados no chão e recolocando as gasolinas no mapa.
 
-📌 Observações
+📌 Observações:
 O código-fonte principal encontra-se no arquivo main.cpp.
 
 Não é necessário recompilar o código para criar novos cenários ou alterar a quantidade de gasolinas; basta editar as matrizes e valores dentro do arquivo map.txt.
 
 O projeto utiliza a biblioteca stb_image.h para o carregamento transparente das texturas .png.
 
-🙌 Créditos
+🙌 Créditos:
 Texturas da viatura policial disponibilizada gratuitamente no Kenney.nl.
 
-📚 Referências
+📚 Referências:
 Documentação Oficial do GLFW: glfw.org
 
 Repositório stb_image: nothings/stb
